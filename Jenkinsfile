@@ -3,7 +3,7 @@ pipeline {
  stages {
  stage ('Checkout') {
  steps {
- git branch:'master', url: 'https://github.com/2002057/ICT3x03-Team26.git'
+ git branch:'master', url: 'https://github.com/ScaleSec/vulnado.git'
  }
  }
 
